@@ -6,11 +6,10 @@ Pod::Spec.new do |spec|
  
 
   spec.name         = "SwiftUIFramework"
-  spec.version      = "0.0.2"
-  spec.summary      = "A short description of SwiftUIFramework."
+  spec.version      = "1.0.2"
+  spec.summary      = "It is a SwiftUIFramework."
 
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "The main feature of SwiftUIFramework calculating algorighms of given numbers"
 
   spec.homepage     = "https://github.com/kavita4310/SwiftUIFramework"
 
@@ -40,8 +39,8 @@ Pod::Spec.new do |spec|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  spec.source_files  = "Classes", "AlgorithmsView/**/*.{h,m,swift}"
-  spec.exclude_files = "Classes/Exclude"
+   spec.source_files = 'SwiftUIFramework/**/*.{h,m,swift}'
+  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
